@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buser</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .user-info {
+            font-size: 16px;
+            color: #333;
+        }
+        .user-info p {
+            margin: 5px 0;
+        }
+        .buttons-container {
+            display: flex;
+            gap: 20px;
+        }
+        .button {
+            background-color: #ff4d6d;
+            color: white;
+            padding: 15px;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            cursor: pointer;
+        }
+        .search-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .search-container input {
+            padding: 10px;
+            width: 80%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+        .search-container button {
+            padding: 10px 20px;
+            background-color: #ff4d6d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .recommendations {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 200px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card-title {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .card-price {
+            font-size: 18px;
+            color: #ff4d6d;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="user-info">
+        <p>Olá,!</p>
+        <p>Pontos: 800</p>
+        <p>Válido até: 27/04/2025</p>
+    </div>
+    <div class="buttons-container">
+        <button class="button">🚌</button>
+        <button class="button">🍹</button>
+        <button class="button">🔥</button>
+        <button class="button">🌳</button>
+    </div>
+</header>
+
+<div class="search-container">
+    <input type="text" placeholder="Pesquisar cidade...">
+    <br>
+    <button>Pesquisar</button>
+</div>
+<br></p>Viagens recomendadas<p>
+<div class="recommendations">
+    <div class="card">
+        <img src="mr.jpeg" alt="Imagem de viagem">
+        <div class="card-content">
+            <p class="card-title">Criciúma - Torres</p>
+            <p class="card-price">R$ 26,79</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="rj.jpeg" alt="Imagem de viagem">
+        <div class="card-content">
+            <p class="card-title">Criciúma - Curitiba</p>
+            <p class="card-price">R$ 93,90</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="transferir.jpeg" alt="Imagem de viagem">
+        <div class="card-content">
+            <p class="card-title">Criciúma</p>
+            <p class="card-price">R$ 45,00</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

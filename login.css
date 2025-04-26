@@ -1,0 +1,124 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container de login */
+.login-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Logo */
+.logo-login img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+/* Formulário */
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Esqueci minha senha */
+.forgot-password {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #ff4d6d;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Botão Entrar */
+.btn-entrar {
+    display: block;
+    text-align: center;
+    background-color: #ff4d6d;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-decoration: none; /* tira o sublinhado */
+    font-weight: bold;
+}
+
+.btn-entrar:hover {
+    background-color: #e8435d;
+}
+
+
+/* Botão Google */
+.btn-google {
+    width: 100%;
+    background-color: white;
+    color: #000000;
+    padding: 12px;
+    border: 2px solid #F01275;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* espaço entre o ícone e o texto */
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-google img {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-google:hover {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+.register-link {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+}
+
+.register-link a {
+    color: #ff4d6d;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.register-link a:hover {
+    color: #e8435d;
+}

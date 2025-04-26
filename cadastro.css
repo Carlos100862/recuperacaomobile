@@ -1,0 +1,116 @@
+/* Estilo do formulário de cadastro */
+.login-form {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+}
+
+.login-form input:focus {
+    border-color: #ff4d6d;
+    outline: none;
+}
+
+/* Botão para login com o Google */
+.login-google {
+    margin-top: 15px;
+    text-align: center;
+}
+.btn-google img {
+    width: 20px;
+    height: 20px;
+}
+.login-google button {
+    background-color: white;
+    border: 2px solid #ff4d6d;
+    color: #ff4d6d;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.login-google button:hover {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+/* Botão Criar Conta */
+.btn-entrar {
+    background-color: #ff4d6d;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-entrar:hover {
+    background-color: #e8435d;
+}
+
+/* Link de registro */
+.register-link {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+}
+
+.register-link a {
+    color: #ff4d6d;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.register-link a:hover {
+    color: #e8435d;
+}
+
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.logo-container img {
+    max-width: 100px;
+    height: auto;
+}

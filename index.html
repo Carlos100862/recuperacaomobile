@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="buser-logo-removebg-preview.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <nav>
+                    <ul>
+                      <li><a href="#" class="menu-button">Promoções</a></li>
+                      <li><a href="#" class="menu-button">Viagens</a></li>
+                      <li><a href="#" class="menu-button">Descubra</a></li>
+                      <li><a href="login.html" class="menu-button">Entrar</a></li>
+                    </ul>
+                  </nav>
+                  
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Card com navegação -->
+        <div class="content">
+            <div class="card-container">
+                <div class="card">
+                    <img id="card-image" src="woldwalking-removebg-preview.png" alt="Card">
+                </div>
+                <div class="navigation">
+                    <button class="arrow left" onclick="changeImage('left')">←</button>
+                    <button class="arrow right" onclick="changeImage('right')">→</button>
+                </div>
+                <div id="card-text" class="card-text">
+                    <p>Encontre milhares de possibilidades para sua próxima viagem</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

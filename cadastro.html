@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css"> <!-- Usa o mesmo CSS para ficar tudo no mesmo estilo -->
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="buser-logo-removebg-preview.png" alt="Logo"> <!-- Troque para a sua logo -->
+        </div>
+    </header>
+
+    <main class="content">
+        <form class="login-form" action="login.html" method="POST">
+
+            <input type="text" placeholder="Nome Completo" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Senha" required>
+            <input type="password" placeholder="Confirme sua Senha" required>
+
+            <div class="login-google">
+                <button type="button" class="btn-google">
+                    <img src="googlelogo-removebg-preview.png" alt="Google Logo">
+                    Continuar com o Google
+                </button>
+            </div>
+
+            <button type="submit" class="btn-entrar">Criar Conta</button>
+
+            <div class="register-link">
+                <p>Já possui uma conta? <a href="login.html">Entre aqui</a>.</p>
+            </div>
+        </form>
+    </main>
+
+</body>
+</html>
