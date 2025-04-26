@@ -1,8 +1,8 @@
 // Lista de imagens e textos para o card
 let cardContent = [
-    { image: "woldwalking-removebg-preview.png", text: "Encontre milhares de possibilidades para sua próxima viagem" },
-    { image: "pigcoin-removebg-preview.png", text: "Receba bonificações por suas viagens e manuseie seu saldo no aplicativo" },
-    { image: "hotelbooking-removebg-preview.png", text: "Troque seus pontos acumulados por descontos ou prêmios." }
+    { image: "img/woldwalking-removebg-preview.png", text: "Encontre milhares de possibilidades para sua próxima viagem" },
+    { image: "img/pigcoin-removebg-preview.png", text: "Receba bonificações por suas viagens e manuseie seu saldo no aplicativo" },
+    { image: "img/hotelbooking-removebg-preview.png", text: "Troque seus pontos acumulados por descontos ou prêmios." }
 ];
 
 let currentIndex = 0;
